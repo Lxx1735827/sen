@@ -9,7 +9,4 @@ export default defineConfig({
     port: 5173
   },
   base: "/sen/",
-  build: {
-    outDir: "docs"
-  }
 })

@@ -7,5 +7,9 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',   // ⭐ 关键
     port: 5173
+  },
+  base: "/sen/",
+  build: {
+    outDir: "docs"
   }
 })
